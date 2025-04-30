@@ -1,0 +1,30 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: white; /* Default background */
+  }
+  
+  /* Button styling */
+  button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  /* Change color on hover for better user feedback */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for dynamically added elements */
+  .dynamic {
+    color: blue;
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
